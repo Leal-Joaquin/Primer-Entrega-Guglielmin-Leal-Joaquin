@@ -25,7 +25,7 @@ saludo();
 //Edad
 
 let edad = parseInt(prompt("Ingrese su edad para entrar a la Web"))
-if ((edad > 18) && (edad <= 36)) {
+if ((edad => 18) && (edad <= 36)) {
     alert("Podes ingresar a la Web")
 } else {
     alert("Estas fuera del rango de edad, lo siento")
